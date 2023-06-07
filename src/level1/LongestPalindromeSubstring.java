@@ -2,8 +2,8 @@ package level1;
 
 
 public class LongestPalindromeSubstring {
-    static int maxLen = 0;
-    static int lo = 0;
+    public static int maxLen = 0;
+    public static int lo = 0;
     public static String longestPalindrome(String s) {
         char[] input = s.toCharArray();
         if(s.length() < 2) {
